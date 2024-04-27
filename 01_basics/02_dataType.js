@@ -1,4 +1,4 @@
-"use strict"; // treal all JS code as newer version
+"use strict"; // treat all JS code as newer version
 //alert (3 + 3) // we are using nodejs, not browser
 // https://ecma-international.org/publications-and-standards/standards/ecma-262/
 

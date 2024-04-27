@@ -31,16 +31,18 @@
  * forOf loop is not aplicable for object
  */
 
-// const map = new Map();
-// map.set('IN','INDIA');
-// map.set('USA','United State Of America');
-// map.set('UK','United Kingdom');
+const map = new Map();
+map.set('IN','INDIA');
+map.set('USA','United State Of America');
+map.set('UK','United Kingdom');
 
-// console.log(map)
+console.log(map)
 
-// for (const [key, value] of map) {
-//     console.log(key, ":-" ,value)    
-// }
+for (const [key, value] of map) {
+    console.log(key, ":-" ,value)    
+    console.log(key)    
+    console.log(value)    
+}
 
 
 // ===============================================
