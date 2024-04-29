@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 export default function Navbar(myprops) {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -24,4 +26,15 @@ export default function Navbar(myprops) {
             </div>
         </nav>
     )
+}
+
+Navbar.propTypes = {
+    title: PropTypes.string.isRequired,
+    about: PropTypes.string.isRequired
+}
+
+Navbar.defaultProps = {
+    title: 'Set title here',
+    about: 'about text here',
+    home: 'Set Home title'
 }
