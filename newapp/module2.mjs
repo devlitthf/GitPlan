@@ -1,13 +1,8 @@
 const a = "Devraj";
-const b = "Deepak";
-const c = "Dev";
-const d = "Devil";
+const b = "Dev";
+const c = "Devil";
 
-// This is a default export
-// export default a;
-
-// This is an named export
+// export default b;
 export {a};
 export {b};
 export {c};
-export {d};
