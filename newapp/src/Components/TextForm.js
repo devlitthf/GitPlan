@@ -1,18 +1,13 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-export default function TextForm(props) {
+export default function (props) {
     return (
-        <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label">{props.title}</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+        <>
+            <div className="container">
+                <div class="mb-3">
+                    <h1>{props.title}</h1>
+                    <textarea className="form-control" rows="8"></textarea>
+                </div>
+            </div>
+        </>
     )
-}
-
-TextForm.propTypes = {
-    title:PropTypes.string
-}
-
-TextForm.defaultProps = {
-    title: "Enter Title here"
 }

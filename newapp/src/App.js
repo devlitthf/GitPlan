@@ -14,8 +14,8 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" home="Home" about="About" />
-      <div className="container">
-        <TextForm title="Enter Text for Editing" />
+      <div className="container my-3">
+        <TextForm title="Enter Text for Analysis" />
       </div>
     </>
   );
